@@ -1,0 +1,76 @@
+<!-- 
+1.universal         *
+2.id                #
+3.class             .
+4.element           no symbol
+5.group element     h1,h2,h3
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;      
+            padding: 0;
+        }
+/* 
+        h1,h2,h3 {
+            background-color: RED;    
+        }
+
+        h2 {
+            color: white;   
+        } */
+
+        .abc {
+            height: 200px;
+            width: 200px;
+            border: solid 2px black;
+            background-color: aquamarine;
+        }
+
+        .abcd {
+            height: 200px;
+            width: 200px;
+            border: solid 2px black;
+            background-color: aqua;
+            margin-left: 100px;
+        }
+        .parent {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="abc">
+            <h1>HEAD</h1>
+        </div>
+          <div class="abcd"></div>
+          <div class="abc"></div>
+          <div class="abcd"></div>
+          <div class="abc"></div>
+          <div class="abcd"></div>
+    </div>
+
+
+    <a href="#sec-2">SECTION 2 </a>
+    <a href="#sec-3">SECTION 3 </a>
+    <a href="#sec-4">SECTION 4 </a>
+    <a href="#sec-5">SECTION 5 </a>
+
+
+    <div id="sec-2"></div>
+    <div id="sec-3"></div>
+    <div id="sec-4"></div>
+   
+</body>
+
+</html>
